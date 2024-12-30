@@ -1,10 +1,11 @@
+import React from "react"
 
 
-function App() {
+const App: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-emerald-500">Hello Tailwind</nav>
+      <nav className="bg-emerald-100">Hello Tailwind</nav>
     </>
   )
 }
