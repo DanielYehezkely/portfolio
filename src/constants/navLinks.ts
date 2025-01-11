@@ -1,10 +1,5 @@
 import { nanoid } from 'nanoid'
-
-interface Link {
-  id: string;
-  href: string;
-  text: string;
-}
+import { Link } from '../types/linkType'
 
 export  const LINKS: Link[] = [
   { id: nanoid(), href: '#home', text: 'home' },

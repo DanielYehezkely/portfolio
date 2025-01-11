@@ -1,5 +1,6 @@
 import React from 'react';
 import { LINKS } from '../../constants/navLinks';
+import { renderLinks } from './NavBarLib';
 
 const NavBar: React.FC = () => {
   return (
@@ -9,14 +10,7 @@ const NavBar: React.FC = () => {
           Web <span className="text-emerald-600">Dev</span>
         </h2>
         <div className="flex gap-x-3">
-          {LINKS.map((link) => {
-            const { id, href, text } = link;
-            return (
-              <a key={id} href={href} className='capitalize text-lg tracking-wide hover:text-emerald-600 duration-300'>
-                {text}
-              </a>
-            );
-          })}
+        {renderLinks(LINKS)}
         </div>
       </div>
     </nav>
