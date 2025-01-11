@@ -1,6 +1,6 @@
 import { Link } from '../../types/linkType';
 
-export const renderLinks = (links: Link[]): JSX.Element[] => {
+export const useRenderLinks = (links: Link[]): JSX.Element[] => {
   return links.map((link) => (
     <a
       key={link.id}
