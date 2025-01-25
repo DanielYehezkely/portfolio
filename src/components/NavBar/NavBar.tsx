@@ -1,7 +1,6 @@
 import React from 'react';
 import { LINKS } from '../../constants/navLinks';
 import { useRenderLinks } from './NavBarLib';
-
 const NavBar: React.FC = () => {
   
   return (
