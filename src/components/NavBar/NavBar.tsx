@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { LINKS } from '../../constants/navLinks';
 import { useRenderLinks } from './NavBarLib';
+
 const NavBar: React.FC = () => {
   
   return (
@@ -15,6 +17,7 @@ const NavBar: React.FC = () => {
       </div>
     </nav>
   );
+
 };
 
 export default NavBar;
