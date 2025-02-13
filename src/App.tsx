@@ -1,6 +1,7 @@
 import React from "react"
 import NavBar from "./components/NavBar/NavBar"
 import Intro from "./components/Intro/Intro"
+import Skills from "./components/Skills/Skills"
 
 
 const App: React.FC = () => {
@@ -9,6 +10,7 @@ const App: React.FC = () => {
     <>
       <NavBar/>
       <Intro/>
+      <Skills/>
     </>
   )
 }
