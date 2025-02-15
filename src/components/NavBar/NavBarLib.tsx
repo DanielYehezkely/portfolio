@@ -5,7 +5,14 @@ export const useRenderLinks = (links: Link[]): JSX.Element[] => {
     <a
       key={link.id}
       href={link.href}
-      className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300"
+      className="nav-link"
+      onClick={(e) => {
+        e.preventDefault();
+        const target = document.querySelector(link.href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }}
     >
       {link.text}
     </a>
