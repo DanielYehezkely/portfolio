@@ -1,7 +1,19 @@
 import React from "react";
 
-const SkillsCard: React.FC = () => {
-  return <div>SkillsCard</div>;
+interface SkillsCardType {
+  icon: React.ReactNode;
+  title: string;
+  text: string;
+}
+
+const SkillsCard: React.FC<SkillsCardType> = ({icon, title, text}) => {
+  return (
+  <article>
+    <span className="">{icon}</span>
+    <h4 className="mt-6 font-bold">{title}</h4>
+    <p className="mt-2 text-slate-500">{text}</p>
+  </article>
+)
 };
 
 export default SkillsCard;
