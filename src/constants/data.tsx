@@ -49,3 +49,30 @@ export const SKILLS = [
     text: 'Experience managing state with Redux, including Redux Toolkit, reducers, actions, and middleware like Thunk.',
   },
 ];
+
+export const PROJECTS = [
+  {
+    id: nanoid(),
+    img: '/images/Screenshot 2025-02-15 212655.png',
+    url: 'https://dyz-c-anime.netlify.app/',
+    github: 'https://github.com/DanielYehezkely/c-anime',
+    title: 'C-Anime',
+    text: 'The Anime Library app helps users manage their anime watchlists and receive personalized recommendations for new anime to watch. Admins have special access to manage the anime library and user reviews.',
+  },
+  {
+    id: nanoid(),
+    img: '/images/Screenshot 2025-02-15 212655.png',
+    url: 'https://dyz-c-anime.netlify.app/',
+    github: 'https://github.com/DanielYehezkely/c-anime',
+    title: 'C-Anime',
+    text: 'The Anime Library app helps users manage their anime watchlists and receive personalized recommendations for new anime to watch. Admins have special access to manage the anime library and user reviews.',
+  },
+  {
+    id: nanoid(),
+    img: '/images/Screenshot 2025-02-15 212655.png',
+    url: 'https://dyz-c-anime.netlify.app/',
+    github: 'https://github.com/DanielYehezkely/c-anime',
+    title: 'C-Anime',
+    text: 'The Anime Library app helps users manage their anime watchlists and receive personalized recommendations for new anime to watch. Admins have special access to manage the anime library and user reviews.',
+  },
+];
