@@ -1,12 +1,9 @@
 import React from "react";
+import { SkillType } from "../../../types/SkillType";
 
-interface SkillsCardType {
-  icon: React.ReactNode;
-  title: string;
-  text: string;
-}
 
-const SkillsCard: React.FC<SkillsCardType> = ({icon, title, text}) => {
+
+const SkillsCard: React.FC<SkillType> = ({icon, title, text}) => {
   return (
   <article>
     <span className="">{icon}</span>
