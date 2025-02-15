@@ -8,7 +8,7 @@ const Intro: React.FC = () => {
         <SelfIntro/>
         <article className='hidden md:block'>
           <img
-            src=""
+            src="/images/coding.png"
             alt="my-img"
             className="h-80 lg:h-96 "
           />
