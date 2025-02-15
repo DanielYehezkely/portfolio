@@ -13,10 +13,8 @@ const About: React.FC = () => {
         </p>
         </article>
       </div>
-
     </section>
   ) 
 };
 
 export default About;
-``
