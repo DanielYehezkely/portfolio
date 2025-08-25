@@ -1,4 +1,4 @@
-import SelfIntro from "./SelfIntro";
+import SelfIntro from "./SelfIntro/SelfIntro";
 
 const Intro: React.FC = () => {
 

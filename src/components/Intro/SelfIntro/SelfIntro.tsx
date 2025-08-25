@@ -1,7 +1,6 @@
 import React from "react";
-import { FaGithubSquare } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaFacebookSquare } from 'react-icons/fa';
+
+import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from 'react-icons/fa';
 
 const SelfIntro:React.FC = () => {
   return (
@@ -14,13 +13,25 @@ const SelfIntro:React.FC = () => {
         A pationate developer trying to make a portfolio ...
       </p>
       <div className="flex gap-x-4 mt-4">
-        <a href="d">
+        <a
+          href="https://github.com/DanielYehezkely"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
         </a>
-        <a href="d">
+        <a
+          href="https://www.linkedin.com/in/daniel-yehezkely/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
         </a>
-        <a href="d">
+        <a
+          href="https://www.facebook.com/daniel.yehezkali"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaFacebookSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
         </a>
       </div>
