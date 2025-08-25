@@ -53,7 +53,7 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: nanoid(),
-    img: '',
+    img: '/images/coding.png',
     url: 'https://dyz-c-anime.netlify.app/',
     github: 'https://github.com/DanielYehezkely/c-anime',
     title: 'C-Anime',
@@ -61,7 +61,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: '/images/coding.png',
     url: 'https://dyz-minecraft-2d-game-project.netlify.app/',
     github: 'https://github.com/DanielYehezkely/minecraft2d-game-project',
     title: 'MineCraft 2D',
@@ -69,7 +69,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: '/images/coding.png',
     url: 'https://trainmate.netlify.app/',
     github: 'https://github.com/ArturAbel/TrainMate',
     title: 'TrainMate',
@@ -77,7 +77,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: '/images/coding.png',
     url: 'https://dyz-shoe-store.netlify.app/shoes/cart',
     github: 'https://github.com/DanielYehezkely/shoe-store-react',
     title: 'Shoe Store',
@@ -85,7 +85,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: '/images/coding.png',
     url: 'https://melodic-bridges.netlify.app/',
     github: 'https://github.com/DanielYehezkely/melodic-bridges',
     title: 'Melodic Bridges',
@@ -93,7 +93,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: '/images/coding.png',
     url: 'https://dyz-bank-manager-react.netlify.app/',
     github: 'https://github.com/DanielYehezkely/bank-management-react',
     title: 'Bank Manager Platform',

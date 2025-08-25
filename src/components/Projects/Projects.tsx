@@ -7,8 +7,7 @@ import { PROJECTS } from '../../constants/data';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
 
 const Projects: React.FC = () => {
   return (
