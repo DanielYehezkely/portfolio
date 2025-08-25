@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
     <nav className="bg-emerald-100">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold">
-          Web <span className="text-emerald-600">Dev</span>
+          My<span className="text-blue-500">Portfolio</span>
         </h2>
         <div className="flex gap-x-3">
         {useRenderLinks(LINKS)}

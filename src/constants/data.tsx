@@ -53,7 +53,7 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: nanoid(),
-    img: '/images/Screenshot 2025-02-15 212655.png',
+    img: '',
     url: 'https://dyz-c-anime.netlify.app/',
     github: 'https://github.com/DanielYehezkely/c-anime',
     title: 'C-Anime',
@@ -61,7 +61,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '/images/Screenshot 2025-02-15 212655.png',
+    img: '',
     url: 'https://dyz-c-anime.netlify.app/',
     github: 'https://github.com/DanielYehezkely/c-anime',
     title: 'C-Anime',
@@ -69,7 +69,7 @@ export const PROJECTS = [
   },
   {
     id: nanoid(),
-    img: '/images/Screenshot 2025-02-15 212655.png',
+    img: '',
     url: 'https://dyz-c-anime.netlify.app/',
     github: 'https://github.com/DanielYehezkely/c-anime',
     title: 'C-Anime',
