@@ -75,4 +75,30 @@ export const PROJECTS = [
     title: 'TrainMate',
     text: 'trainMate is a web app that connects users with local sports trainers. It allows users to search, book, and review trainers, with an admin approval system and messaging for trainer-trainee communication. Built with React, Redux, and Firebase, trainMate offers a seamless experience for managing fitness sessions.',
   },
+  {
+    id: nanoid(),
+    img: '',
+    url: 'https://dyz-shoe-store.netlify.app/shoes/cart',
+    github: 'https://github.com/DanielYehezkely/shoe-store-react',
+    title: 'Shoe Store',
+    text: 'The Shoe Store Management Application is a comprehensive web-based platform that allows users to browse a collection of shoes and contact the store, while providing administrators with extensive management capabilities. Built using React, this application leverages modern web technologies and libraries to deliver a responsive and interactive user experience.',
+  },
+  {
+    id: nanoid(),
+    img: '',
+    url: 'https://melodic-bridges.netlify.app/',
+    github: 'https://github.com/DanielYehezkely/melodic-bridges',
+    title: 'Melodic Bridges',
+    text: 'Melodic Bridges is a react web application which focuses on instruments used in both Arabic and Hebrew songs. It aims to showcase these instruments and the songs they are featured in, promoting cultural understanding through music.',
+  },
+  {
+    id: nanoid(),
+    img: '',
+    url: 'https://dyz-bank-manager-react.netlify.app/',
+    github: 'https://github.com/DanielYehezkely/bank-management-react',
+    title: 'Bank Manager Platform',
+    text: 'The Bank Manager Application is a robust, web-based platform designed for bank administrators to efficiently manage their clients and handle various banking transactions. This application is built using React and Firebase, offering a secure and streamlined experience for banking operations.',
+  },
 ];
+
+
