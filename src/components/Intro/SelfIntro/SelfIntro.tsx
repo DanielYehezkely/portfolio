@@ -10,7 +10,8 @@ const SelfIntro:React.FC = () => {
         Frontend Developer
       </p>
       <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
-        A pationate developer trying to make a portfolio ...
+        crafting engaging, user-friendly web applications. Passionate about
+        continuous learning and effective digital solutions.
       </p>
       <div className="flex gap-x-4 mt-4">
         <a

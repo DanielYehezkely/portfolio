@@ -10,19 +10,16 @@ const About: React.FC = () => {
           className="h-80 w-full object-cover opacity-80 rounded-lg shadow-md"
         />
         <article className="">
-          <SectionTitle text="Code & People" />
+          <SectionTitle text="Coding & Life" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
-            ullam, iste quaerat quibusdam eos quo non rem provident enim
-            corporis ducimus sit eveniet mollitia autem veniam nobis, debitis
-            quod quos. Repudiandae consequuntur dicta mollitia dolorum. Quo
-            explicabo sit pariatur ducimus voluptatibus quam tenetur mollitia
-            laborum magni consectetur. Aut, consequatur quia. Quae voluptatum
-            omnis eligendi dolorum vitae quia dignissimos doloribus neque ad
-            itaque illo perspiciatis, minima id accusamus nam ea, non vel!
-            Quibusdam officiis ut praesentium eius, magnam omnis, nesciunt neque
-            quasi nisi, nemo adipisci commodi maxime repellat facere impedit
-            alias. Quaerat, animi quos ab consequuntur numquam vel quod quo sit?
+            I started coding at the end of 2023 and fell for the rhythm of
+            building: small ideas, quick iterations, sharper results. Then life
+            called—reserve duty—twice. Each pause pulled me from the keyboard,
+            but not from the craft. I kept notes, read docs on my phone, and
+            sketched features I’d ship “when I’m back.” I finished a front-end
+            course in between, served again until August 2025, and returned with
+            more grit than before. Now I’m back — ready to learn fast,
+            ship clean, and turn ideas into real products.
           </p>
         </article>
       </div>
