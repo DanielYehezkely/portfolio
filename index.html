@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet">
     <title>MyPortfolio</title>
+     <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem('theme'); // 'light' | 'dark' | 'system' | null
+          const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const shouldDark =
+            saved === 'dark' || ((!saved || saved === 'system') && systemPrefersDark);
+          if (shouldDark) document.documentElement.classList.add('dark');
+          document.documentElement.setAttribute('data-theme', shouldDark ? 'dark' : 'light');
+        } catch (_) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
