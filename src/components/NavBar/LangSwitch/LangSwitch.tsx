@@ -17,7 +17,7 @@ const LangSwitch: React.FC = () => {
       onClick={toggle}
       aria-label="Toggle language"
       aria-pressed={isHebrew}
-      className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-3 py-1 text-sm text-slate-700 hover:bg-slate-50 transition"
+      className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-3 py-1 text-sm text-slate-700 hover:bg-slate-50 transition dark:text-slate-100 dark:hover:bg-slate-700"
       title="Switch language"
     >
       <span
