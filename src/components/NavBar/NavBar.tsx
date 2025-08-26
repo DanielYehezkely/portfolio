@@ -1,5 +1,7 @@
 import React from 'react';
 
+import LangSwitch from './LangSwitch/LangSwitch';
+
 import { LINKS } from '../../constants/data';
 import { useRenderLinks } from './NavBarLib';
 
@@ -14,6 +16,7 @@ const NavBar: React.FC = () => {
         <div className="flex gap-x-3">
         {useRenderLinks(LINKS)}
         </div>
+        <LangSwitch/>
       </div>
     </nav>
   );
