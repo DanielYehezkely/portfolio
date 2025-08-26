@@ -1,17 +1,20 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from 'react-icons/fa';
 
 const SelfIntro:React.FC = () => {
+
+  const { t } = useTranslation('common');
+
   return (
     <article>
-      <h1 className="text-7xl font-bold tracking-wider">I'm Daniel</h1>
+      <h1 className="text-7xl font-bold tracking-wider">{t("intro.title")}</h1>
       <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-        Frontend Developer
+        {t("intro.subtitle")}
       </p>
       <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
-        crafting engaging, user-friendly web applications. Passionate about
-        continuous learning and effective digital solutions.
+         {t("intro.tagline")}
       </p>
       <div className="flex gap-x-4 mt-4">
         <a

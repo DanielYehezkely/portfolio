@@ -5,10 +5,10 @@
     "about": "About",
     "projects": "Projects"
   },
-  "hero": {
+  "intro": {
     "title": "I'm Daniel",
     "subtitle": "Frontend Developer",
-    "tagline": "A passionate developer building clean, modern UIs."
+    "tagline": "crafting engaging, user-friendly web applications. Passionate about continuous learning and effective digital solutions."
   },
   "sections": {
     "aboutTitle": "Code & People",
