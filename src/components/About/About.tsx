@@ -10,7 +10,7 @@ const About: React.FC = () => {
           className="h-80 w-full object-cover opacity-80 rounded-lg shadow-md"
         />
         <article className="">
-          <SectionTitle text="Coding & Life" />
+          <SectionTitle i18nKey="sections.aboutTitle" />
           <p className="text-slate-600 mt-8 leading-loose">
             I started coding at the end of 2023 and fell for the rhythm of
             building: small ideas, quick iterations, sharper results. Then life

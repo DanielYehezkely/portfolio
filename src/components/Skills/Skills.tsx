@@ -7,7 +7,7 @@ import { SKILLS } from '../../constants/data';
 const Skills: React.FC = () => {
   return (
     <section className="py-20 align-element" id="skills">
-      <SectionTitle text="tech stack" />
+      <SectionTitle i18nKey='sections.skillsTitle'/>
       <div className="py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
        {renderSkills(SKILLS)}
       </div>

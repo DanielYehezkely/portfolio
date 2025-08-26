@@ -12,7 +12,7 @@ import 'swiper/css';
 const Projects: React.FC = () => {
   return (
     <section className="py-20 align-element" id="projects">
-      <SectionTitle text="web creations" />
+      <SectionTitle i18nKey='sections.projectsTitle' />
 
       <Swiper
         modules={[Navigation, Pagination, Autoplay, A11y]}
