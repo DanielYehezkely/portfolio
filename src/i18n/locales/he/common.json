@@ -1,3 +1,23 @@
 {
-  "name": "דניאל"
+  "nav": {
+    "intro": "בית",
+    "skills": "כישורים",
+    "about": "עליי",
+    "projects": "פרויקטים"
+  },
+  "hero": {
+    "title": "אני דניאל",
+    "subtitle": "מפתח פרונט-אנד",
+    "tagline": "מפתח שאוהב לבנות ממשקים נקיים ומודרניים."
+  },
+  "sections": {
+    "aboutTitle": "קוד ואנשים",
+    "projectsTitle": "יצירות ווב",
+    "codeAndLifeTitle": "קוד וחיים",
+    "codeAndLifeBody": "התחלתי לקודד בסוף 2023... עכשיו חזרתי לעניינים."
+  },
+  "cards": {
+    "readMore": "קרא עוד",
+    "readLess": "קרא פחות"
+  }
 }

@@ -1,3 +1,23 @@
 {
-  "name": "daniel"
+  "nav": {
+    "intro": "Home",
+    "skills": "Skills",
+    "about": "About",
+    "projects": "Projects"
+  },
+  "hero": {
+    "title": "I'm Daniel",
+    "subtitle": "Frontend Developer",
+    "tagline": "A passionate developer building clean, modern UIs."
+  },
+  "sections": {
+    "aboutTitle": "Code & People",
+    "projectsTitle": "Web Creations",
+    "codeAndLifeTitle": "Code & Life",
+    "codeAndLifeBody": "I started coding at the end of 2023... Now I’m back to business."
+  },
+  "cards": {
+    "readMore": "Read more",
+    "readLess": "Read less"
+  }
 }

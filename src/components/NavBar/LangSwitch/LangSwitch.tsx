@@ -45,7 +45,7 @@ const LangSwitch: React.FC = () => {
           alt="israel-flag"
           className="w-4 h-4 rounded-sm"
         />
-        HE
+        עברית
       </span>
     </button>
   );

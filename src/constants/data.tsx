@@ -4,11 +4,11 @@ import { FaHtml5, FaReact, FaJsSquare } from 'react-icons/fa';
 import { SiTypescript, SiFirebase, SiRedux } from 'react-icons/si';
 
 export  const LINKS: Link[] = [
-  { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#skills', text: 'skills' },
-  { id: nanoid(), href: '#about', text: 'about' },
-  { id: nanoid(), href: '#projects', text: 'projects' }
-]
+  { id: nanoid(), href: '#home', text: 'home', i18nKey: 'nav.intro' },
+  { id: nanoid(), href: '#skills', text: 'skills', i18nKey: 'nav.skills' },
+  { id: nanoid(), href: '#about', text: 'about', i18nKey: 'nav.about' },
+  { id: nanoid(), href: '#projects', text: 'projects', i18nKey: 'nav.projects' },
+];
 
 
 export const SKILLS = [
