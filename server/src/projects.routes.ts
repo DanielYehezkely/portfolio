@@ -1,4 +1,3 @@
-// server/src/projects.routes.ts
 import { Router } from 'express';
 import { z } from 'zod';
 import { PrismaClient } from '@prisma/client';
@@ -23,11 +22,22 @@ router.get('/', async (_req, res) => {
 
 router.post('/', async (req, res) => {
   const parsed = ProjectBody.safeParse(req.body);
-  if (!parsed.success)
+  if (!parsed.success) {
     return res.status(400).json({ error: parsed.error.flatten() });
+  }
 
   const created = await prisma.project.create({ data: parsed.data });
   res.status(201).json(created);
+});
+
+router.delete('/:id', async (req, res) => {
+  const { id } = req.params;
+  try {
+    await prisma.project.delete({ where: { id } });
+    res.status(204).send(); 
+  } catch (e) {
+    res.status(404).json({ error: 'Project not found', details: String(e) });
+  }
 });
 
 export default router;
