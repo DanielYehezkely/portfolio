@@ -1,4 +1,3 @@
-// server/src/index.ts
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
@@ -10,7 +9,6 @@ app.use(express.json());
 
 app.get('/health', (_req, res) => res.send('ok'));
 
-// 👇 THIS LINE mounts the /api/projects endpoints
 app.use('/api/projects', projectsRouter);
 
 const port = Number(process.env.PORT) || 4000;
