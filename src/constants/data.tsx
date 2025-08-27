@@ -50,55 +50,6 @@ export const SKILLS = [
   },
 ];
 
-export const PROJECTS = [
-  {
-    id: nanoid(),
-    img: '/images/coding.png',
-    url: 'https://dyz-c-anime.netlify.app/',
-    github: 'https://github.com/DanielYehezkely/c-anime',
-    title: 'C-Anime',
-    text: 'The Anime Library app helps users manage their anime watchlists and receive personalized recommendations for new anime to watch. Admins have special access to manage the anime library and user reviews.',
-  },
-  {
-    id: nanoid(),
-    img: '/images/coding.png',
-    url: 'https://dyz-minecraft-2d-game-project.netlify.app/',
-    github: 'https://github.com/DanielYehezkely/minecraft2d-game-project',
-    title: 'MineCraft 2D',
-    text: 'This is a **2D game** inspired by the famous **Minecraft** open-world game. The project was created using **JavaScript**, **CSS**, and **HTML**. Players can generate a new world, use tools to interact with the environment, and modify the game world by adding or removing tiles.',
-  },
-  {
-    id: nanoid(),
-    img: '/images/coding.png',
-    url: 'https://trainmate.netlify.app/',
-    github: 'https://github.com/ArturAbel/TrainMate',
-    title: 'TrainMate',
-    text: 'trainMate is a web app that connects users with local sports trainers. It allows users to search, book, and review trainers, with an admin approval system and messaging for trainer-trainee communication. Built with React, Redux, and Firebase, trainMate offers a seamless experience for managing fitness sessions.',
-  },
-  {
-    id: nanoid(),
-    img: '/images/coding.png',
-    url: 'https://dyz-shoe-store.netlify.app/shoes/cart',
-    github: 'https://github.com/DanielYehezkely/shoe-store-react',
-    title: 'Shoe Store',
-    text: 'The Shoe Store Management Application is a comprehensive web-based platform that allows users to browse a collection of shoes and contact the store, while providing administrators with extensive management capabilities. Built using React, this application leverages modern web technologies and libraries to deliver a responsive and interactive user experience.',
-  },
-  {
-    id: nanoid(),
-    img: '/images/coding.png',
-    url: 'https://melodic-bridges.netlify.app/',
-    github: 'https://github.com/DanielYehezkely/melodic-bridges',
-    title: 'Melodic Bridges',
-    text: 'Melodic Bridges is a react web application which focuses on instruments used in both Arabic and Hebrew songs. It aims to showcase these instruments and the songs they are featured in, promoting cultural understanding through music.',
-  },
-  {
-    id: nanoid(),
-    img: '/images/coding.png',
-    url: 'https://dyz-bank-manager-react.netlify.app/',
-    github: 'https://github.com/DanielYehezkely/bank-management-react',
-    title: 'Bank Manager Platform',
-    text: 'The Bank Manager Application is a robust, web-based platform designed for bank administrators to efficiently manage their clients and handle various banking transactions. This application is built using React and Firebase, offering a secure and streamlined experience for banking operations.',
-  },
-];
+
 
 
