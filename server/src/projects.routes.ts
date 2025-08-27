@@ -40,4 +40,18 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
+router.put('/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const updated = await prisma.project.update({
+      where: { id },
+      data: req.body, 
+    });
+    res.json(updated);
+  } catch (e) {
+    res.status(404).json({ error: 'Project not found', details: String(e) });
+  }
+});
+
 export default router;

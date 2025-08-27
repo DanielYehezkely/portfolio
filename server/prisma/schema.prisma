@@ -23,13 +23,3 @@ model Project {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
-
-model Skill {
-  id        String   @id @default(uuid())
-  title     String
-  iconName  String    // e.g. "FaReact"
-  iconColor String?   // e.g. "text-blue-500"
-  text      String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
