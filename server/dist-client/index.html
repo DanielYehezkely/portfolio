@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" class="bg-slate-50">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio</title>
+     <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem('theme'); // 'light' | 'dark' | 'system' | null
+          const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const shouldDark =
+            saved === 'dark' || ((!saved || saved === 'system') && systemPrefersDark);
+          if (shouldDark) document.documentElement.classList.add('dark');
+          document.documentElement.setAttribute('data-theme', shouldDark ? 'dark' : 'light');
+        } catch (_) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-BgTiw1rR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BEAF31wi.css">
+  </head>
+  <body>
+    <div id="root" class="dark:bg-slate-300"></div>
+  </body>
+</html>
