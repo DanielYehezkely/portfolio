@@ -8,17 +8,22 @@ const app = express();
 app.use(cors({ origin: ['http://localhost:5173'] }));
 app.use(express.json());
 
+// API routes
 app.get('/health', (_req, res) => res.send('ok'));
-
 app.use('/api/projects', projectsRouter);
 
+// ---- Serve the React build (SPA) ----
+const staticDir = path.join(__dirname, '../dist-client');
+app.use(express.static(staticDir));
+
+// SPA fallback for any route that does NOT start with /api
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api')) return next();
+  res.sendFile(path.join(staticDir, 'index.html'));
+});
+
+// ---- start server LAST ----
 const port = Number(process.env.PORT) || 4000;
 app.listen(port, () => {
   console.log(`API running on http://localhost:${port}`);
-});
-
-app.use(express.static(path.join(__dirname, '../dist-client')));
-
-app.get('*', (_req, res) => {
-  res.sendFile(path.join(__dirname, '../dist-client/index.html'));
 });
