@@ -6,6 +6,7 @@ import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import 'swiper/css';
 
 import { listProjects, Project } from '../../api/Projects';
+import i18n from '../../i18n';
 
 const Projects: React.FC = () => {
   const [projects, setProjects] = React.useState<Project[] | null>(null);
@@ -30,6 +31,8 @@ const Projects: React.FC = () => {
 
         {projects && projects.length > 0 && (
           <Swiper
+            key={i18n.language}
+            dir={i18n.dir()}
             modules={[Navigation, Pagination, Autoplay, A11y]}
             spaceBetween={24}
             slidesPerView={1}
@@ -51,7 +54,7 @@ const Projects: React.FC = () => {
                 <ProjectsCard
                   title={p.title}
                   text={p.text}
-                  img={p.imgUrl || ''} 
+                  img={p.imgUrl || ''}
                   url={p.url || ''}
                   github={p.github || ''}
                 />
