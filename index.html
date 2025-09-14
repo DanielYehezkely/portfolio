@@ -9,7 +9,7 @@
      <script>
       (function () {
         try {
-          const saved = localStorage.getItem('theme'); // 'light' | 'dark' | 'system' | null
+          const saved = localStorage.getItem('theme'); 
           const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
           const shouldDark =
             saved === 'dark' || ((!saved || saved === 'system') && systemPrefersDark);
