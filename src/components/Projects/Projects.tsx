@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import ProjectsCard from './ProjectsCard/ProjectsCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import type { Swiper as SwiperType } from 'swiper';
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import 'swiper/css';
 
@@ -11,12 +12,19 @@ import i18n from '../../i18n';
 const Projects: React.FC = () => {
   const [projects, setProjects] = React.useState<Project[] | null>(null);
   const [error, setError] = React.useState<string | null>(null);
+  const [swiper, setSwiper] = React.useState<SwiperType | null>(null);
 
   React.useEffect(() => {
     listProjects()
       .then(setProjects)
       .catch((err) => setError(err.message));
   }, []);
+
+  React.useEffect(() => {
+    if (swiper) {
+      swiper.update(); 
+    }
+  }, [i18n.language, swiper]);
 
   return (
     <section className="py-20 align-element" id="projects">
@@ -33,6 +41,7 @@ const Projects: React.FC = () => {
           <Swiper
             key={i18n.language}
             dir={i18n.dir()}
+            onSwiper={setSwiper}
             modules={[Navigation, Pagination, Autoplay, A11y]}
             spaceBetween={24}
             slidesPerView={1}
